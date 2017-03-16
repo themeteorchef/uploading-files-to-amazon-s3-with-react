@@ -29,11 +29,7 @@ Meteor.startup(() => {
   render(
     <Router history={ browserHistory }>
       <Route path="/" component={ App }>
-        <IndexRoute name="index" component={ Index } />
-        <Route name="documents" path="/documents" component={ Documents } onEnter={ authenticate } />
-        <Route name="newDocument" path="/documents/new" component={ NewDocument } onEnter={ authenticate } />
-        <Route name="editDocument" path="/documents/:_id/edit" component={ EditDocument } onEnter={ authenticate } />
-        <Route name="viewDocument" path="/documents/:_id" component={ ViewDocument } onEnter={ authenticate } />
+        <IndexRoute name="index" component={ Index } onEnter={ authenticate } />
         <Route name="login" path="/login" component={ Login } />
         <Route name="recover-password" path="/recover-password" component={ RecoverPassword } />
         <Route name="reset-password" path="/reset-password/:token" component={ ResetPassword } />

@@ -10,7 +10,7 @@ const AppNavigation = ({ hasUser }) => (
   <Navbar>
     <Navbar.Header>
       <Navbar.Brand>
-        <Link to="/">Application Name</Link>
+        <Link to="/"><i className="fa fa-tint" /> Dewdrop</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>

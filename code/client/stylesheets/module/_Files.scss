@@ -1,0 +1,11 @@
+.Files .fa-remove {
+  float: right;
+  position: relative;
+  top: 3px;
+  color: #aaa;
+
+  &:hover {
+    color: red;
+    cursor: pointer;
+  }
+}
