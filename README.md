@@ -1,6 +1,6 @@
 #### Tutorial: Uploading Files to Amazon S3 with React
 
-In this tutorial, we'll learn how to upload files to Amazon S3 via a React-based interface. We'll learn how to create a component that handles uploading, how to set rules for uploading, as well as how to remove existing assets via the
+In this tutorial, we'll learn how to upload files to Amazon S3 via a React-based interface. We'll learn how to create a component that handles uploading, how to set rules for uploading, as well as how to remove existing assets via the AWS
 
 [Read this tutorial on The Meteor Chef](https://themeteorchef.com/tutorials/uploading-files-to-amazon-s3-with-react)  
 
